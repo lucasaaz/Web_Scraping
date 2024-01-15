@@ -28,7 +28,7 @@ def send_email():
     print('Enviado com sucesso!')
 
 link = "https://www.americanas.com.br/busca/s22?limit=24&offset=0"
-headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36"}
+headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.8.7.0 Safari/538.36"}
 
 requisicao = requests.get(link, headers=headers)
 

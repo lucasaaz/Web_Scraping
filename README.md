@@ -22,4 +22,7 @@ Este código em Python realiza a extração de informações da previsão do tem
 Código em Python que realiza web scraping básico para extrair o preço de um celular de uma página web. Ele utiliza as bibliotecas 'requests' para obter o conteúdo da página e 'BeautifulSoup' para analisar o HTML. 
 A função buscar_preco_celular faz a requisição, procura o elemento HTML que contém o preço e exibe o resultado.
 
+O código Python fornecido também envia um e-mail utilizando as bibliotecas smtplib e email. Ele configura as informações do servidor SMTP e do e-mail, cria uma mensagem com assunto e corpo doque foi coletado, 
+conecta-se ao servidor SMTP, faz login e envia o e-mail.
+
 <h1></h1>
